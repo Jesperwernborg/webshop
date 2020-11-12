@@ -1,0 +1,44 @@
+ul{
+    list-style: none; 
+}
+.moviesLayout:first-child{
+        margin-top: 0;
+    }
+.moviesLayout{
+    width: 40%;
+    display: flex;
+    position: relative;
+    background-color: #c3073f;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #1A1A1D;
+    align-items: center;
+    p{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 10px;
+        font-weight: 650;
+    }
+    img{
+        
+        height: 148.214286px;
+        width: 100px;
+    }
+    .buyBtn{
+        border-radius: 8px;
+        border: 1px solid #1A1A1D;
+        height: 20px;
+        width: 40px;
+        font-size: 12px;
+        font-weight: 550;
+    }
+}
+h3 {
+    padding: 0;
+    color: #c3073f;
+}

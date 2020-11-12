@@ -1,0 +1,31 @@
+
+.products{
+    position: relative;
+    margin: 40px;
+
+.form{
+    position: absolute;
+    top: 0;
+    display: inline-flex;
+    flex-direction: column;
+    background-color:#c3073f;
+    border-radius: 8px;
+    label{
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        font-size: 14px;
+    }
+    input{
+        margin: 0px 10px 0px 10px;
+        border-radius: 8px;
+        border: solid 1px ;
+    }
+    button{
+        margin: 30px 10px; 
+        border-radius: 8px;
+        border: solid 1px ;
+    }
+}
+}
